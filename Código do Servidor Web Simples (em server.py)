@@ -1,3 +1,8 @@
+from flask import Flask
+import time
+
+app = Flask(__name__)
+
 @app.route('/')
 def home():
     # Simula um pequeno atraso para representar o processamento do servidor
